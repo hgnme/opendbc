@@ -33,7 +33,7 @@ NS_ :
 
 BS_:
 
-BU_: Airbag_MQB BAP_Tester_MQB BMS_MQB Datenlogger_MQB Gateway_MQB Getriebe_DQ_Hybrid_MQB Getriebe_DQ_MQB LEH_MQB Motor_Diesel_MQB Motor_Hybrid_MQB Motor_Otto_MQB SAK_MQB Waehlhebel_MQB Vector__XXX 9 l c i XXX
+BU_: Airbag_MQB BAP_Tester_MQB BMS_MQB Datenlogger_MQB Gateway_MQB Getriebe_DQ_Hybrid_MQB Getriebe_DQ_MQB LEH_MQB Motor_Diesel_MQB Motor_Hybrid_MQB Motor_Otto_MQB SAK_MQB Waehlhebel_MQB Vector__XXX 9 l c i XXX Kombi_D4
 
 
 BO_ 290 ACC_06: 8 Gateway_MQB
@@ -1129,28 +1129,6 @@ BO_ 798 TSK_07: 8 Motor_Diesel_MQB
  SG_ TSK_Status_Anzeige : 61|3@1+ (1,0) [0|7] "" Gateway_MQB
 
 BO_ 1716 VIN_01: 8 Gateway_MQB
- SG_ VIN_01_MUX M : 0|2@1+ (1,0) [0|3] ""  Airbag_MQB
- SG_ KS_Geheimnis_1 m0 : 8|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ VIN_4 m1 : 8|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_11 m2 : 8|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ KS_Geheimnis_2 m0 : 16|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ VIN_5 m1 : 16|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_12 m2 : 16|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ KS_Geheimnis_3 m0 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ VIN_6 m1 : 24|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_13 m2 : 24|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ KS_Geheimnis_4 m0 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
- SG_ VIN_7 m1 : 32|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_14 m2 : 32|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_1 m0 : 40|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_8 m1 : 40|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_15 m2 : 40|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_2 m0 : 48|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_9 m1 : 48|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_16 m2 : 48|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_3 m0 : 56|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_10 m1 : 56|8@1+ (1,0) [0|255] ""  Airbag_MQB
- SG_ VIN_17 m2 : 56|8@1+ (1,0) [0|255] ""  Airbag_MQB
 
 BO_ 175 Waehlhebel_03: 4 Waehlhebel_MQB
  SG_ WH_Status_Sperre : 0|3@1+ (1,0) [0|7] "" Getriebe_DQ_Hybrid_MQB,Getriebe_DQ_MQB
@@ -1255,25 +1233,25 @@ BO_ 695 RCTA_01: 8 XXX
  SG_ RCTA_01_CRC : 0|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 783 SWA_01: 8 Gateway_MQB
- SG_ CHECKSUM : 0|8@1+ (1,0) [0|255] ""  Vector__XXX
- SG_ COUNTER : 8|4@1+ (1,0) [0|15] ""  Vector__XXX
- SG_ SWA_Anzeigen : 12|4@1+ (1,0) [0|15] ""  Kombi_D4
- SG_ SWA_Blindheit_erkannt : 16|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_rel_Nichtverf : 17|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_rel_Fehler : 18|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Sta_aktiv : 19|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Sta_passiv : 20|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Standziele_li : 24|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Kolonne_li : 25|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Infostufe_SWA_li : 26|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Warnung_SWA_li : 27|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Kolonne_mi : 33|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Standziele_re : 40|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Kolonne_re : 41|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Infostufe_SWA_re : 42|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Warnung_SWA_re : 43|1@1+ (1,0) [0|1] ""  Vector__XXX
- SG_ SWA_Gischtzaehler : 48|7@1+ (1,0) [0|100] "Unit_PerCent"  Vector__XXX
- SG_ SWA_KD_Fehler : 59|1@1+ (1,0) [0|1] ""  Vector__XXX
+ SG_ CHECKSUM : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ COUNTER : 8|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ SWA_Anzeigen : 12|4@1+ (1,0) [0|15] "" Kombi_D4
+ SG_ SWA_Blindheit_erkannt : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_rel_Nichtverf : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_rel_Fehler : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Sta_aktiv : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Sta_passiv : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Standziele_li : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Kolonne_li : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Infostufe_SWA_li : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Warnung_SWA_li : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Kolonne_mi : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Standziele_re : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Kolonne_re : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Infostufe_SWA_re : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Warnung_SWA_re : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ SWA_Gischtzaehler : 48|7@1+ (1,0) [0|100] "Unit_PerCent" Vector__XXX
+ SG_ SWA_KD_Fehler : 59|1@1+ (1,0) [0|1] "" Vector__XXX
 
 BO_ 804 ACC_04: 8 XXX
  SG_ ACC_04_CRC : 0|8@1+ (1,0) [0|255] "" XXX
@@ -1332,18 +1310,43 @@ BO_ 391 EV_Gearshift: 8 XXX
  SG_ GearPosition : 16|4@1+ (1,0) [0|255] "" XXX
  SG_ RegenBrakingMode : 12|2@1+ (1,0) [0|3] "" XXX
 
+BO_ 295 LWR_AFS_02: 8 XXX
+
+BO_ 791 Kamera_FDD_Obj01: 8 XXX
+
+BO_ 799 Kamera_FDD_Obj02: 8 XXX
+
+BO_ 838 Kamera_FDD_Obj03: 8 XXX
+
+BO_ 839 Kamera_FDD_Obj04: 8 XXX
+
+BO_ 840 Kamera_FDD_Obj05: 8 XXX
+
+BO_ 841 Kamera_FDD_Obj06: 8 XXX
+
+BO_ 842 Kamera_FDD_Obj07: 8 XXX
+
+BO_ 843 Kamera_FDD_Obj08: 8 XXX
+
+BO_ 844 Kamera_FDD_SL_01: 8 XXX
+
+BO_ 845 Kamera_FDD_SL_02: 8 XXX
+
+BO_ 795 ESP_24: 8 XXX
+
+
+
+
 CM_ SG_ 173 COUNTERXX "Message not renamed to COUNTER because J533 rate-limiting makes it look like messages are being lost";
+CM_ SG_ 960 ZAS_Kl_15 "Indicates ignition on";
 CM_ SG_ 134 LWI_Lenkradwinkel "Steering angle WITH variable ratio effect included";
-CM_ SG_ 294 3 "May be zero when sent by older cameras";
-CM_ SG_ 294 7 "May be zero when sent by older cameras";
-CM_ SG_ 294 254 "May be zero when sent by older cameras";
 CM_ SG_ 294 Assist_Torque "Heading control input, torque";
 CM_ SG_ 294 Assist_VZ "Heading control input, direction (sign)";
 CM_ SG_ 294 HCA_Available "Must be 1 for steering rack to accept HCA commands";
+CM_ SG_ 159 Steering_Wheel_Angle "Steering angle WITHOUT variable ratio effect included";
 CM_ SG_ 159 HCA_Ready "1 if HCA is okay, 0 if the rack doesn't have HCA configured or a timer/constraint has been violated, rack will not respond to HCA commands";
 CM_ SG_ 159 Driver_Strain "Steering input by driver, torque";
 CM_ SG_ 159 Driver_Strain_VZ "Steering input by driver, sign (direction)";
-CM_ SG_ 159 Steering_Wheel_Angle "Steering angle WITHOUT variable ratio effect included";
 CM_ SG_ 919 LDW_DLC "Probable DLC (distance to line crossing)";
 CM_ SG_ 919 LDW_TLC "Probable TLC (time to line crossing)";
 CM_ SG_ 919 LDW_Unknown "Might be a steering pressed / driver active flag";
@@ -1353,12 +1356,11 @@ CM_ SG_ 919 Right_Lane_Status "Display brightness range, 0 = no lane, 3 = full b
 CM_ SG_ 919 Left_Lane_Status "Display brightness range, 0 = no lane, 3 = full brightness";
 CM_ SG_ 919 Kombi_Lamp_Orange "Enables orange LDW light in instrument cluster";
 CM_ SG_ 919 Kombi_Lamp_Green "Enables green LDW light in instrument cluster";
+CM_ SG_ 780 SetSpeed "ACC set speed";
+CM_ SG_ 780 Abstand "Following distance";
 CM_ SG_ 780 Folgefahrt "Following another vehicle";
 CM_ SG_ 780 SetAbstand "Set following distance";
-CM_ SG_ 780 Abstand "Following distance";
-CM_ SG_ 780 SetSpeed "ACC set speed";
 CM_ SG_ 391 GearPosition "Traditional PRND plus B-mode aggressive regen, B-mode mapped to Drive";
-CM_ SG_ 960 ZAS_Kl_15 "Indicates ignition on";
-VAL_ 173 GE_Fahrstufe 5 "P" 6 "R" 7 "N" 8 "D" 9 "S" 10 "E" 14 "T";
-VAL_ 391 GearPosition 2 "P" 3 "R" 4 "N" 5 "D" 6 "D";
-VAL_ 391 RegenBrakingMode 0 "default" 1 "B1" 2 "B2" 3 "B3";
+VAL_ 173 GE_Fahrstufe 5 "P" 6 "R" 7 "N" 8 "D" 9 "S" 10 "E" 14 "T" ;
+VAL_ 391 GearPosition 2 "P" 3 "R" 4 "N" 5 "D" 6 "D" ;
+VAL_ 391 RegenBrakingMode 0 "default" 1 "B1" 2 "B2" 3 "B3" ;
