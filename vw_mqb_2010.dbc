@@ -1293,6 +1293,10 @@ BO_ 981 Licht_Anf_01: 8 XXX
 BO_ 1440 RLS_01: 8 XXX
 
 BO_ 870 Blinkmodi_02: 8 XXX
+ SG_ Blinken_re_Fzg_Takt : 28|1@0+ (1,0) [0|1] "" XXX
+ SG_ Blinken_re_Kombi_Takt : 26|1@0+ (1,0) [0|1] "" XXX
+ SG_ Blinken_li_Fzg_Takt : 27|1@0+ (1,0) [0|1] "" XXX
+ SG_ Blinken_li_Kombi_Takt : 25|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 1385 HVEM_04: 8 XXX
 
